@@ -16,8 +16,9 @@
 }
 
 .page-header {
-    width: 100%;
     position: fixed;
+    top: 0;
+    width: 100%;
     right: auto;
     left: auto;
     height: 84px;
@@ -30,6 +31,7 @@
 
 .page-header nav ul {
     font-family: "Roboto", sans-serif;
+    font-size: 24px;
     color: white;
     display: flex;
     margin: 0;
@@ -46,4 +48,19 @@
 
 .page-header nav ul a:hover {
     font-weight: 700;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 403px;
+    margin-top: 84px;
+    background: url(img/Jumbotron.png) center center no-repeat;
+}
+
+.welcome-section h1 {
+    font-size: 72px;
+    letter-spacing: 0;
+    color: #fff;
 }
