@@ -152,3 +152,14 @@ h2 {
     font-size: 18;
     font-style: italic;
 }
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 176px;
+    background-color: #333333;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
