@@ -87,3 +87,19 @@ h2 {
 .problem-section p:first-of-type {
     margin-top: 16px;
 }
+
+.hero-section .conteiner {
+    display: flex;
+    height: 483px;
+    font-size: 48px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    background-color: cadetblue;
+    background: url(img/hero-bg.png) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
