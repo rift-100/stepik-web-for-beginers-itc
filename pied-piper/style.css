@@ -114,3 +114,41 @@ h2 {
     margin-right: 48px;
     margin-bottom: 35px;
 }
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 94px;
+}
+
+.team-cards h2 {
+    margin-bottom: 32px;
+}
+
+.team-cards li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 283px;
+}
+
+.team-cards .name {
+    color:#007765;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.team-cards .team-role {
+    margin-top: 0;
+    font-size: 18;
+    font-style: italic;
+}
