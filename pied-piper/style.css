@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1219px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+.page-header .conteiner {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header {
+    width: 100%;
+    position: fixed;
+    right: auto;
+    left: auto;
+    height: 84px;
+    background-color: #007765;
+}
+
+.page-header nav {
+    display: inline-block;
+}
+
+.page-header nav ul {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    list-style: none;
+}
+
+.page-header nav ul a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.page-header nav ul a:hover {
+    font-weight: 700;
+}
