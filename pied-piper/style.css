@@ -1,5 +1,16 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 * {
     box-sizing: border-box;
+}
+
+h2 {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    margin: 48px 0 16px;
 }
 
 .conteiner {
@@ -63,4 +74,16 @@
     font-size: 72px;
     letter-spacing: 0;
     color: #fff;
+}
+
+.problem-section {
+    padding-bottom: 92px;
+}
+
+.problem-section p {
+    font-size: 32px;
+}
+
+.problem-section p:first-of-type {
+    margin-top: 16px;
 }
