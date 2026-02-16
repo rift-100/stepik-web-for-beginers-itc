@@ -68,6 +68,7 @@ h2 {
     height: 403px;
     margin-top: 84px;
     background: url(img/Jumbotron.png) center center no-repeat;
+    background-size: cover;
 }
 
 .welcome-section h1 {
